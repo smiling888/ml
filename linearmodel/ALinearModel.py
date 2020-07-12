@@ -14,7 +14,6 @@ reg = linear_model.LinearRegression()
 #print(reg.coef_)
 
 # f(x)=ax+b [x,y]
-
 def bingqiling():
     dataX = [[1],[3],[4],[10]] #[[25],[27],[31],[33],[35]]
     dataY=[3,7,9,21]#[110,115,155,160,180]
@@ -84,3 +83,4 @@ def diabetes():
     plt.show()
 
 #diabetes()
+
